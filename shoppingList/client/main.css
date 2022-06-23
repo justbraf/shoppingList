@@ -1,0 +1,22 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.js-checkOff{
+  cursor: pointer;
+}
+
+.js-checkOff:hover{
+  background-color: blue;
+  color: white;
+}
+
+.item-bought{
+  background-color: green !important;
+  color: white !important;
+}
+
+.errorBox{
+  border: red solid 2px !important;
+}

@@ -1,0 +1,16 @@
+<template name="viewList">
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    {{#each allItems}}
+                    <li class="list-group-item {{#if bought}} item-bought {{else}} list-group-item-secondary{{/if}} js-checkOff">
+                        <div style="width: 100%;">
+                            <span style="width: 90%">{{item}}</span>
+                            <i class="fa-solid fa-xmark js-delete"></i>
+                        </div>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>        
+</template>

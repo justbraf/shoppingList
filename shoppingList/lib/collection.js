@@ -1,0 +1,1 @@
+listdb = new Mongo.Collection("list");
